@@ -17,7 +17,7 @@ public class Customer {
     }
 
     // GET & SET CUSTOMER WALLET
-    public int getWallet(){
+    public static int getWallet(){
         return this.wallet;
     }
     public void setWallet(int wallet) {

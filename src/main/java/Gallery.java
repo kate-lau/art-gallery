@@ -41,6 +41,16 @@ public class Gallery {
         this.till = till;
     }
 
+    // SALE PROCEDURES
+    public void sale(Gallery gallery) {
+      if ((Customer.getWallet() >= Artwork.getPrice()) && (Artwork.getArtworkSold() = false)) {
+            Artwork.setArtworkSold() == false;
+            int WalletRemainder = Customer.getWallet() - Artwork.getPrice();
+            Customer.setWallet(WalletRemainder);
+            int galleryNewTill = Gallery.getTill() + Artwork.getPrice();
+            Gallery.setTill(galleryNewTill);
+        } else ;
+    }
 }
 
 

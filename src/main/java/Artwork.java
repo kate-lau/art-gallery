@@ -45,14 +45,4 @@ public class Artwork {
         this.sold = sold;
     }
 
-
-
-    public void sale(Gallery gallery){
-        if ((this.sold() == false) && (Customer.wallet >= getPrice())){
-            this.sold() = true;
-            Customer.wallet -= getPrice();
-            Gallery.getTill() += getPrice();
-        }
-        else;
-    }
 }
