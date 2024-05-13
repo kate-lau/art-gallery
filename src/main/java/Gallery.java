@@ -13,8 +13,32 @@ public class Gallery {
         this.stock = new ArrayList<>();
     }
 
+    // METHOD: GALLERY NAME
     public String getGalleryName(){
         return this.galleryName;
+    }
+
+    // METHOD: GET GALLERY STOCK COUNT
+    public int getStockCount(){
+        return this.stock.size();
+    }
+
+    // METHOD: GET GALLERY STOCK LIST
+    public ArrayList<Artwork> getStock(){
+        return this.stock;
+    }
+
+    // METHOD: ADD ARTWORK TO GALLERY
+    public void addArtwork(Artwork artwork){
+        this.stock.add(artwork);
+    }
+
+    // METHOD: GETTING/SETTING TILL
+    public int getTill(){
+        return this.till;
+    }
+    public void setTill(int till){
+        this.till = till;
     }
 
 }

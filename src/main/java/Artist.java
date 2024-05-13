@@ -1,9 +1,16 @@
 public class Artist {
 
-    private String name;
+    private String artistName;
 
-    public Artist (String artistName){
-        this.name = artistName;
+    public Artist (String artistName) {
+        this.artistName = artistName;
     }
 
+    // GET & SET ARTIST NAME
+    public String getArtistName(){
+        return this.artistName;
+    }
+    public void setArtistName(String artistName) {
+        this.artistName = artistName;
+    }
 }
