@@ -30,7 +30,7 @@ public class Artwork {
 
 
     // GET & SET ARTWORK PRICE
-    public int getPrice(){
+    public static int getPrice(){
         return this.price;
     }
     public void setPrice(int price){
