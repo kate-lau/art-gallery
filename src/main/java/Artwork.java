@@ -10,3 +10,12 @@ public class Artwork {
         this.price = price;
     }
 }
+
+//check gallery stock of artwork
+//check artwork quantity(sold/not sold)
+//set artwork quantity to sold
+//get artwork price
+//get wallet amount
+//reduce amount in wallet by price
+//get till amount
+//increase amount in till by price
