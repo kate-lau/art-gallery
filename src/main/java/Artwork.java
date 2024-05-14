@@ -1,13 +1,15 @@
+import java.util.ArrayList;
+
 public class Artwork {
 
     private String title;
-    private String artist;
-    private int price;
+    private ArrayList<Artwork> artist;
+    private double price;
     private boolean sold;
 
-    public Artwork(String title, String artist, int price, boolean sold) {
+    public Artwork(String title, double price, boolean sold) {
         this.title = title;
-        this.artist = artist;
+        this.artist = new ArrayList<Artwork>();
         this.price = price;
         this.sold = false;
     }

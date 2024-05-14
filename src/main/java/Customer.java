@@ -1,11 +1,15 @@
+import java.util.ArrayList;
+
 public class Customer {
 
     private String customerName;
-    private int wallet;
+    private double wallet;
+    private ArrayList<Artwork> artCollection;
 
-    public Customer (String customerName, int wallet){
+    public Customer (String customerName, double wallet){
         this.customerName = customerName;
         this.wallet = wallet;
+        this.artCollection = new ArrayList<Artwork>();
     }
 
     // GET & SET CUSTOMER NAME
@@ -17,7 +21,7 @@ public class Customer {
     }
 
     // GET & SET CUSTOMER WALLET
-    public static int getWallet(){
+    public double getWallet(){
         return this.wallet;
     }
     public void setWallet(int wallet) {

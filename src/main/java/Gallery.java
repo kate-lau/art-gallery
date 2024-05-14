@@ -10,7 +10,7 @@ public class Gallery {
     public Gallery (String galleryName){
         this.galleryName = galleryName;
         this.till = 0;
-        this.stock = new ArrayList<>();
+        this.stock = new ArrayList<Artwork>();
     }
 
     // METHOD: GALLERY NAME
